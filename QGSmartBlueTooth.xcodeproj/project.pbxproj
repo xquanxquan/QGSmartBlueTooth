@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285B102A1DDED90C0052291A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B101D1DDED90C0052291A /* libicucore.tbd */; };
+		285B102B1DDED90C0052291A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B101E1DDED90C0052291A /* libz.tbd */; };
+		285B102C1DDED90C0052291A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B101F1DDED90C0052291A /* libstdc++.tbd */; };
+		285B102D1DDED90C0052291A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B10201DDED90C0052291A /* JavaScriptCore.framework */; };
+		285B102E1DDED90C0052291A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B10211DDED90C0052291A /* MessageUI.framework */; };
+		285B10341DDEDC430052291A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B10331DDEDC430052291A /* SystemConfiguration.framework */; };
+		285B10361DDEDC4F0052291A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B10351DDEDC4F0052291A /* CoreTelephony.framework */; };
+		285B10381DDEDC5D0052291A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B10371DDEDC5D0052291A /* AdSupport.framework */; };
+		2863D0241DDF4BD9003DDA5D /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0211DDF4BD9003DDA5D /* MOBFoundation.framework */; };
+		2863D0251DDF4BD9003DDA5D /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0221DDF4BD9003DDA5D /* MOBFoundationEx.framework */; };
+		2863D0261DDF4BD9003DDA5D /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0231DDF4BD9003DDA5D /* SMS_SDK.framework */; };
+		2863D04B1DDF5BB2003DDA5D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0481DDF5BB2003DDA5D /* FBSDKCoreKit.framework */; };
+		2863D04C1DDF5BB2003DDA5D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0491DDF5BB2003DDA5D /* FBSDKLoginKit.framework */; };
+		2863D04D1DDF5BB2003DDA5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D04A1DDF5BB2003DDA5D /* FBSDKShareKit.framework */; };
+		552D2A5D1DB5E50400F4D6B4 /* QGMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552D2A5C1DB5E50400F4D6B4 /* QGMainTabBarController.m */; };
+		5545A2911D6450AF0027D6D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5545A2931D6450AF0027D6D1 /* Localizable.strings */; };
+		554AA1CC1D522F890044910D /* view2.png in Resources */ = {isa = PBXBuildFile; fileRef = 554AA1CB1D522F890044910D /* view2.png */; };
+		554FC8BE1D58503A00371E67 /* view1 .png in Resources */ = {isa = PBXBuildFile; fileRef = 554FC8BD1D58503A00371E67 /* view1 .png */; };
+		554FC8C31D58BF0700371E67 /* GATT_Specifications.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554FC8C21D58BF0700371E67 /* GATT_Specifications.plist */; };
+		556ADAC41D488C1300C4E6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAC31D488C1300C4E6A3 /* main.m */; };
+		556ADAC71D488C1300C4E6A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAC61D488C1300C4E6A3 /* AppDelegate.m */; };
+		556ADAD01D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */; };
+		556ADAD21D488C1300C4E6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556ADAD11D488C1300C4E6A3 /* Assets.xcassets */; };
+		556ADAD51D488C1300C4E6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */; };
+		558ABF151D508F3C009154BA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558ABF141D508F3C009154BA /* CoreBluetooth.framework */; };
+		55B1F0C71DE1CBE300CC5171 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B1F0C61DE1CBE300CC5171 /* Bolts.framework */; };
+		55B1F0CA1DE1D43800CC5171 /* QGhealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1F0C91DE1D43800CC5171 /* QGhealthViewController.m */; };
+		55C0E9B21DD98E5800FB657C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C0E9B11DD98E5800FB657C /* Main.storyboard */; };
+		55CBD1B71DE18C7600D72614 /* QGRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1A81DE18C7600D72614 /* QGRegistViewController.m */; };
+		55CBD1B81DE18C7600D72614 /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1AA1DE18C7600D72614 /* VerifyViewController.m */; };
+		55CBD1B91DE18C7600D72614 /* FPswCheckPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1AC1DE18C7600D72614 /* FPswCheckPhoneViewController.m */; };
+		55CBD1BA1DE18C7600D72614 /* FPswResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1AE1DE18C7600D72614 /* FPswResetViewController.m */; };
+		55CBD1BB1DE18C7600D72614 /* VerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1B01DE18C7600D72614 /* VerifyLoginViewController.m */; };
+		55CBD1BC1DE18C7600D72614 /* LoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1B21DE18C7600D72614 /* LoginMainViewController.m */; };
+		55CBD1BD1DE18C7600D72614 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1B41DE18C7600D72614 /* LoginViewController.m */; };
+		55CBD1BE1DE18C7600D72614 /* WCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1B61DE18C7600D72614 /* WCViewController.m */; };
+		55CBD1C01DE18C9400D72614 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBD1BF1DE18C9400D72614 /* Login.storyboard */; };
+		55CBD1C51DE18CF500D72614 /* AppStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1C21DE18CF500D72614 /* AppStatus.m */; };
+		55CBD1C61DE18CF500D72614 /* QGCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1C41DE18CF500D72614 /* QGCheckTool.m */; };
+		55CBD1CA1DE1907E00D72614 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55CBD1C91DE1907E00D72614 /* Info.plist */; };
+		55CBD1CF1DE1B57200D72614 /* QGCharacteristicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1CC1DE1B57200D72614 /* QGCharacteristicCell.m */; };
+		55CBD1D01DE1B57200D72614 /* QGMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1CE1DE1B57200D72614 /* QGMenuTableViewCell.m */; };
+		55CBD1DB1DE1B5E500D72614 /* QGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1D21DE1B5E500D72614 /* QGMapViewController.m */; };
+		55CBD1DC1DE1B5E500D72614 /* QGSportMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1D41DE1B5E500D72614 /* QGSportMainController.m */; };
+		55CBD1DD1DE1B5E500D72614 /* QGJabraDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1D61DE1B5E500D72614 /* QGJabraDetailController.m */; };
+		55CBD1DE1DE1B5E500D72614 /* QGCharactiesDeatailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1D81DE1B5E500D72614 /* QGCharactiesDeatailView.m */; };
+		55CBD1DF1DE1B5E500D72614 /* QGSportMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1DA1DE1B5E500D72614 /* QGSportMenuController.m */; };
+		55CBD1E11DE1B7CB00D72614 /* Sport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBD1E01DE1B7CB00D72614 /* Sport.storyboard */; };
+		55CBD1E71DE1C0C900D72614 /* QGHealthTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD1E61DE1C0C900D72614 /* QGHealthTestTool.m */; };
+		55DE42EC1D58BFBA004E1CB6 /* QGATGATTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DE42EB1D58BFBA004E1CB6 /* QGATGATTTool.m */; };
+		55EF5D911DD9B11900C64461 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EF5D901DD9B11900C64461 /* Setting.storyboard */; };
+		55EF5D941DD9B18700C64461 /* QGSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EF5D931DD9B18700C64461 /* QGSettingTableViewController.m */; };
+		55F459641D630C560008CFF3 /* QGBlueToothTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FC8B51D58470700371E67 /* QGBlueToothTool.m */; };
+		55F459651D630C5A0008CFF3 /* QGChangeHexTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FC8B81D584B6E00371E67 /* QGChangeHexTool.m */; };
+		55FAFEBF1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FAFEBE1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m */; };
+		94FB3AA61DD99F0A009B027B /* QGMusicPageOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AA11DD99F0A009B027B /* QGMusicPageOneController.m */; };
+		94FB3AA71DD99F0A009B027B /* QGMusicPageTwoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AA31DD99F0A009B027B /* QGMusicPageTwoListController.m */; };
+		94FB3AA81DD99F0A009B027B /* QGMusicPageThreePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AA51DD99F0A009B027B /* QGMusicPageThreePlayerController.m */; };
+		94FB3AAD1DD99F28009B027B /* QGMusicPageTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AAA1DD99F28009B027B /* QGMusicPageTwoCell.m */; };
+		94FB3AAE1DD99F28009B027B /* QGMusicPageOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AAC1DD99F28009B027B /* QGMusicPageOneCell.m */; };
+		94FB3AB31DD99F3B009B027B /* QGMusicPlayMusicPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AB01DD99F3B009B027B /* QGMusicPlayMusicPlayManager.m */; };
+		94FB3AB41DD99F3B009B027B /* QGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB3AB21DD99F3B009B027B /* QGFileManager.m */; };
+		94FB3AB61DD99F4F009B027B /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FB3AB51DD99F4F009B027B /* Music.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		285B101D1DDED90C0052291A /* libicucore.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		285B101E1DDED90C0052291A /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		285B101F1DDED90C0052291A /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		285B10201DDED90C0052291A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		285B10211DDED90C0052291A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		285B10331DDEDC430052291A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		285B10351DDEDC4F0052291A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		285B10371DDEDC5D0052291A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		2863D0211DDF4BD9003DDA5D /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		2863D0221DDF4BD9003DDA5D /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		2863D0231DDF4BD9003DDA5D /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		2863D0361DDF56B9003DDA5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		2863D0371DDF56B9003DDA5D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		2863D0381DDF56B9003DDA5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		2863D0481DDF5BB2003DDA5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2863D0491DDF5BB2003DDA5D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2863D04A1DDF5BB2003DDA5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		552D2A5B1DB5E50400F4D6B4 /* QGMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMainTabBarController.h; sourceTree = "<group>"; };
+		552D2A5C1DB5E50400F4D6B4 /* QGMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMainTabBarController.m; sourceTree = "<group>"; };
+		5545A2361D644D1B0027D6D1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5545A23A1D644D570027D6D1 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5545A2921D6450AF0027D6D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5545A2941D6450B00027D6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5545A2951D6450B10027D6D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5545A2961D6450B10027D6D1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5545A2971D6450B20027D6D1 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		554AA1CB1D522F890044910D /* view2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = view2.png; path = ../view2.png; sourceTree = "<group>"; };
+		554FC8B41D58470700371E67 /* QGBlueToothTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGBlueToothTool.h; sourceTree = "<group>"; };
+		554FC8B51D58470700371E67 /* QGBlueToothTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGBlueToothTool.m; sourceTree = "<group>"; };
+		554FC8B71D584B6E00371E67 /* QGChangeHexTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGChangeHexTool.h; sourceTree = "<group>"; };
+		554FC8B81D584B6E00371E67 /* QGChangeHexTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGChangeHexTool.m; sourceTree = "<group>"; };
+		554FC8BD1D58503A00371E67 /* view1 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view1 .png"; sourceTree = "<group>"; };
+		554FC8C21D58BF0700371E67 /* GATT_Specifications.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GATT_Specifications.plist; sourceTree = "<group>"; };
+		556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGSmartBlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556ADAC31D488C1300C4E6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556ADAC51D488C1300C4E6A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QGSmartBlueTooth/AppDelegate.h; sourceTree = "<group>"; };
+		556ADAC61D488C1300C4E6A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QGSmartBlueTooth/AppDelegate.m; sourceTree = "<group>"; };
+		556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QGSmartBlueTooth.xcdatamodel; sourceTree = "<group>"; };
+		556ADAD11D488C1300C4E6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556ADAD41D488C1300C4E6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		556ADADF1D488C1300C4E6A3 /* QGSmartBlueToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGSmartBlueToothTests.m; sourceTree = "<group>"; };
+		556ADAE11D488C1300C4E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556ADAEA1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGSmartBlueToothUITests.m; sourceTree = "<group>"; };
+		556ADAEC1D488C1300C4E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558ABF141D508F3C009154BA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		55B1F0C61DE1CBE300CC5171 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		55B1F0C81DE1D43800CC5171 /* QGhealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGhealthViewController.h; sourceTree = "<group>"; };
+		55B1F0C91DE1D43800CC5171 /* QGhealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGhealthViewController.m; sourceTree = "<group>"; };
+		55C0E9B11DD98E5800FB657C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		55CBD1A71DE18C7600D72614 /* QGRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGRegistViewController.h; sourceTree = "<group>"; };
+		55CBD1A81DE18C7600D72614 /* QGRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGRegistViewController.m; sourceTree = "<group>"; };
+		55CBD1A91DE18C7600D72614 /* VerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		55CBD1AA1DE18C7600D72614 /* VerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
+		55CBD1AB1DE18C7600D72614 /* FPswCheckPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPswCheckPhoneViewController.h; sourceTree = "<group>"; };
+		55CBD1AC1DE18C7600D72614 /* FPswCheckPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPswCheckPhoneViewController.m; sourceTree = "<group>"; };
+		55CBD1AD1DE18C7600D72614 /* FPswResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPswResetViewController.h; sourceTree = "<group>"; };
+		55CBD1AE1DE18C7600D72614 /* FPswResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPswResetViewController.m; sourceTree = "<group>"; };
+		55CBD1AF1DE18C7600D72614 /* VerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyLoginViewController.h; sourceTree = "<group>"; };
+		55CBD1B01DE18C7600D72614 /* VerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyLoginViewController.m; sourceTree = "<group>"; };
+		55CBD1B11DE18C7600D72614 /* LoginMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginMainViewController.h; sourceTree = "<group>"; };
+		55CBD1B21DE18C7600D72614 /* LoginMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginMainViewController.m; sourceTree = "<group>"; };
+		55CBD1B31DE18C7600D72614 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		55CBD1B41DE18C7600D72614 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		55CBD1B51DE18C7600D72614 /* WCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCViewController.h; sourceTree = "<group>"; };
+		55CBD1B61DE18C7600D72614 /* WCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCViewController.m; sourceTree = "<group>"; };
+		55CBD1BF1DE18C9400D72614 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		55CBD1C11DE18CF500D72614 /* AppStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatus.h; sourceTree = "<group>"; };
+		55CBD1C21DE18CF500D72614 /* AppStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatus.m; sourceTree = "<group>"; };
+		55CBD1C31DE18CF500D72614 /* QGCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGCheckTool.h; sourceTree = "<group>"; };
+		55CBD1C41DE18CF500D72614 /* QGCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGCheckTool.m; sourceTree = "<group>"; };
+		55CBD1C91DE1907E00D72614 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CBD1CB1DE1B57200D72614 /* QGCharacteristicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGCharacteristicCell.h; sourceTree = "<group>"; };
+		55CBD1CC1DE1B57200D72614 /* QGCharacteristicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGCharacteristicCell.m; sourceTree = "<group>"; };
+		55CBD1CD1DE1B57200D72614 /* QGMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMenuTableViewCell.h; sourceTree = "<group>"; };
+		55CBD1CE1DE1B57200D72614 /* QGMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMenuTableViewCell.m; sourceTree = "<group>"; };
+		55CBD1D11DE1B5E500D72614 /* QGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMapViewController.h; sourceTree = "<group>"; };
+		55CBD1D21DE1B5E500D72614 /* QGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMapViewController.m; sourceTree = "<group>"; };
+		55CBD1D31DE1B5E500D72614 /* QGSportMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGSportMainController.h; sourceTree = "<group>"; };
+		55CBD1D41DE1B5E500D72614 /* QGSportMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGSportMainController.m; sourceTree = "<group>"; };
+		55CBD1D51DE1B5E500D72614 /* QGJabraDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGJabraDetailController.h; sourceTree = "<group>"; };
+		55CBD1D61DE1B5E500D72614 /* QGJabraDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGJabraDetailController.m; sourceTree = "<group>"; };
+		55CBD1D71DE1B5E500D72614 /* QGCharactiesDeatailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGCharactiesDeatailView.h; sourceTree = "<group>"; };
+		55CBD1D81DE1B5E500D72614 /* QGCharactiesDeatailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGCharactiesDeatailView.m; sourceTree = "<group>"; };
+		55CBD1D91DE1B5E500D72614 /* QGSportMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGSportMenuController.h; sourceTree = "<group>"; };
+		55CBD1DA1DE1B5E500D72614 /* QGSportMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGSportMenuController.m; sourceTree = "<group>"; };
+		55CBD1E01DE1B7CB00D72614 /* Sport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sport.storyboard; sourceTree = "<group>"; };
+		55CBD1E51DE1C0C900D72614 /* QGHealthTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGHealthTestTool.h; sourceTree = "<group>"; };
+		55CBD1E61DE1C0C900D72614 /* QGHealthTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGHealthTestTool.m; sourceTree = "<group>"; };
+		55DE42EA1D58BFBA004E1CB6 /* QGATGATTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGATGATTTool.h; sourceTree = "<group>"; };
+		55DE42EB1D58BFBA004E1CB6 /* QGATGATTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGATGATTTool.m; sourceTree = "<group>"; };
+		55EF5D901DD9B11900C64461 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		55EF5D921DD9B18700C64461 /* QGSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGSettingTableViewController.h; sourceTree = "<group>"; };
+		55EF5D931DD9B18700C64461 /* QGSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGSettingTableViewController.m; sourceTree = "<group>"; };
+		55F4595E1D62E3DB0008CFF3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		55FAFEBD1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBCentralManager+QGCentralManagerCategory.h"; sourceTree = "<group>"; };
+		55FAFEBE1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBCentralManager+QGCentralManagerCategory.m"; sourceTree = "<group>"; };
+		94FB3AA01DD99F0A009B027B /* QGMusicPageOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPageOneController.h; sourceTree = "<group>"; };
+		94FB3AA11DD99F0A009B027B /* QGMusicPageOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPageOneController.m; sourceTree = "<group>"; };
+		94FB3AA21DD99F0A009B027B /* QGMusicPageTwoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPageTwoListController.h; sourceTree = "<group>"; };
+		94FB3AA31DD99F0A009B027B /* QGMusicPageTwoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPageTwoListController.m; sourceTree = "<group>"; };
+		94FB3AA41DD99F0A009B027B /* QGMusicPageThreePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPageThreePlayerController.h; sourceTree = "<group>"; };
+		94FB3AA51DD99F0A009B027B /* QGMusicPageThreePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPageThreePlayerController.m; sourceTree = "<group>"; };
+		94FB3AA91DD99F28009B027B /* QGMusicPageTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPageTwoCell.h; sourceTree = "<group>"; };
+		94FB3AAA1DD99F28009B027B /* QGMusicPageTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPageTwoCell.m; sourceTree = "<group>"; };
+		94FB3AAB1DD99F28009B027B /* QGMusicPageOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPageOneCell.h; sourceTree = "<group>"; };
+		94FB3AAC1DD99F28009B027B /* QGMusicPageOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPageOneCell.m; sourceTree = "<group>"; };
+		94FB3AAF1DD99F3B009B027B /* QGMusicPlayMusicPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMusicPlayMusicPlayManager.h; sourceTree = "<group>"; };
+		94FB3AB01DD99F3B009B027B /* QGMusicPlayMusicPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMusicPlayMusicPlayManager.m; sourceTree = "<group>"; };
+		94FB3AB11DD99F3B009B027B /* QGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGFileManager.h; sourceTree = "<group>"; };
+		94FB3AB21DD99F3B009B027B /* QGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGFileManager.m; sourceTree = "<group>"; };
+		94FB3AB51DD99F4F009B027B /* Music.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556ADABC1D488C1300C4E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285B10381DDEDC5D0052291A /* AdSupport.framework in Frameworks */,
+				2863D0261DDF4BD9003DDA5D /* SMS_SDK.framework in Frameworks */,
+				2863D04C1DDF5BB2003DDA5D /* FBSDKLoginKit.framework in Frameworks */,
+				285B10361DDEDC4F0052291A /* CoreTelephony.framework in Frameworks */,
+				285B10341DDEDC430052291A /* SystemConfiguration.framework in Frameworks */,
+				285B102B1DDED90C0052291A /* libz.tbd in Frameworks */,
+				285B102A1DDED90C0052291A /* libicucore.tbd in Frameworks */,
+				2863D0241DDF4BD9003DDA5D /* MOBFoundation.framework in Frameworks */,
+				2863D04D1DDF5BB2003DDA5D /* FBSDKShareKit.framework in Frameworks */,
+				285B102D1DDED90C0052291A /* JavaScriptCore.framework in Frameworks */,
+				558ABF151D508F3C009154BA /* CoreBluetooth.framework in Frameworks */,
+				285B102C1DDED90C0052291A /* libstdc++.tbd in Frameworks */,
+				2863D04B1DDF5BB2003DDA5D /* FBSDKCoreKit.framework in Frameworks */,
+				285B102E1DDED90C0052291A /* MessageUI.framework in Frameworks */,
+				2863D0251DDF4BD9003DDA5D /* MOBFoundationEx.framework in Frameworks */,
+				55B1F0C71DE1CBE300CC5171 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285B0FF21DDDA2440052291A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				285B0FF41DDDA2670052291A /* controller */,
+				285B0FF31DDDA25C0052291A /* view */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		285B0FF31DDDA25C0052291A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55CBD1BF1DE18C9400D72614 /* Login.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		285B0FF41DDDA2670052291A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				55CBD1A71DE18C7600D72614 /* QGRegistViewController.h */,
+				55CBD1A81DE18C7600D72614 /* QGRegistViewController.m */,
+				55CBD1A91DE18C7600D72614 /* VerifyViewController.h */,
+				55CBD1AA1DE18C7600D72614 /* VerifyViewController.m */,
+				55CBD1AB1DE18C7600D72614 /* FPswCheckPhoneViewController.h */,
+				55CBD1AC1DE18C7600D72614 /* FPswCheckPhoneViewController.m */,
+				55CBD1AD1DE18C7600D72614 /* FPswResetViewController.h */,
+				55CBD1AE1DE18C7600D72614 /* FPswResetViewController.m */,
+				55CBD1AF1DE18C7600D72614 /* VerifyLoginViewController.h */,
+				55CBD1B01DE18C7600D72614 /* VerifyLoginViewController.m */,
+				55CBD1B11DE18C7600D72614 /* LoginMainViewController.h */,
+				55CBD1B21DE18C7600D72614 /* LoginMainViewController.m */,
+				55CBD1B31DE18C7600D72614 /* LoginViewController.h */,
+				55CBD1B41DE18C7600D72614 /* LoginViewController.m */,
+				55CBD1B51DE18C7600D72614 /* WCViewController.h */,
+				55CBD1B61DE18C7600D72614 /* WCViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		285B0FF51DDDA2750052291A /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		285B10261DDED90C0052291A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2863D0361DDF56B9003DDA5D /* FBSDKCoreKit.framework */,
+				2863D0371DDF56B9003DDA5D /* FBSDKLoginKit.framework */,
+				2863D0381DDF56B9003DDA5D /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			path = "../iOS Test/LoginDemo_v1";
+			sourceTree = "<group>";
+		};
+		2863D0201DDF4BD9003DDA5D /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2863D0211DDF4BD9003DDA5D /* MOBFoundation.framework */,
+				2863D0221DDF4BD9003DDA5D /* MOBFoundationEx.framework */,
+				2863D0231DDF4BD9003DDA5D /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		554AA1CD1D522F960044910D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				554FC8BD1D58503A00371E67 /* view1 .png */,
+				554AA1CB1D522F890044910D /* view2.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		556ADAB61D488C1300C4E6A3 = {
+			isa = PBXGroup;
+			children = (
+				5598F0EA1DAF41AD00DCF017 /* frameworks */,
+				556ADAC11D488C1300C4E6A3 /* QGSmartBlueTooth */,
+				556ADADE1D488C1300C4E6A3 /* QGSmartBlueToothTests */,
+				556ADAE91D488C1300C4E6A3 /* QGSmartBlueToothUITests */,
+				556ADAC01D488C1300C4E6A3 /* Products */,
+				285B10261DDED90C0052291A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		556ADAC01D488C1300C4E6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556ADAC11D488C1300C4E6A3 /* QGSmartBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				554AA1CD1D522F960044910D /* image */,
+				556ADB001D488CBF00C4E6A3 /* Classes */,
+				556ADAD11D488C1300C4E6A3 /* Assets.xcassets */,
+				556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */,
+				556ADAC21D488C1300C4E6A3 /* Supporting Files */,
+			);
+			path = QGSmartBlueTooth;
+			sourceTree = "<group>";
+		};
+		556ADAC21D488C1300C4E6A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */,
+				556ADAC31D488C1300C4E6A3 /* main.m */,
+				55CBD1C91DE1907E00D72614 /* Info.plist */,
+				5545A2931D6450AF0027D6D1 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		556ADADE1D488C1300C4E6A3 /* QGSmartBlueToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				556ADADF1D488C1300C4E6A3 /* QGSmartBlueToothTests.m */,
+				556ADAE11D488C1300C4E6A3 /* Info.plist */,
+			);
+			path = QGSmartBlueToothTests;
+			sourceTree = "<group>";
+		};
+		556ADAE91D488C1300C4E6A3 /* QGSmartBlueToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAEA1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m */,
+				556ADAEC1D488C1300C4E6A3 /* Info.plist */,
+			);
+			path = QGSmartBlueToothUITests;
+			sourceTree = "<group>";
+		};
+		556ADAF81D488C2300C4E6A3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				285B0FF21DDDA2440052291A /* Login */,
+				55EF5D8D1DD9B0E500C64461 /* Setting */,
+				94FB3A9C1DD99ED5009B027B /* Music */,
+				55C0E9AE1DD98E2D00FB657C /* main */,
+				5599D6D51D4C7C66009A6B62 /* Sport */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		556ADAF91D488C3600C4E6A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55CBD1CB1DE1B57200D72614 /* QGCharacteristicCell.h */,
+				55CBD1CC1DE1B57200D72614 /* QGCharacteristicCell.m */,
+				55CBD1CD1DE1B57200D72614 /* QGMenuTableViewCell.h */,
+				55CBD1CE1DE1B57200D72614 /* QGMenuTableViewCell.m */,
+				55CBD1E01DE1B7CB00D72614 /* Sport.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		556ADAFA1D488C3C00C4E6A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55CBD1D11DE1B5E500D72614 /* QGMapViewController.h */,
+				55CBD1D21DE1B5E500D72614 /* QGMapViewController.m */,
+				55CBD1D31DE1B5E500D72614 /* QGSportMainController.h */,
+				55CBD1D41DE1B5E500D72614 /* QGSportMainController.m */,
+				55CBD1D51DE1B5E500D72614 /* QGJabraDetailController.h */,
+				55CBD1D61DE1B5E500D72614 /* QGJabraDetailController.m */,
+				55CBD1D71DE1B5E500D72614 /* QGCharactiesDeatailView.h */,
+				55CBD1D81DE1B5E500D72614 /* QGCharactiesDeatailView.m */,
+				55CBD1D91DE1B5E500D72614 /* QGSportMenuController.h */,
+				55CBD1DA1DE1B5E500D72614 /* QGSportMenuController.m */,
+				55B1F0C81DE1D43800CC5171 /* QGhealthViewController.h */,
+				55B1F0C91DE1D43800CC5171 /* QGhealthViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		556ADAFB1D488C6200C4E6A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55FAFEBD1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.h */,
+				55FAFEBE1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		556ADAFC1D488C7400C4E6A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		556ADAFD1D488C7B00C4E6A3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				55CBD1E51DE1C0C900D72614 /* QGHealthTestTool.h */,
+				55CBD1E61DE1C0C900D72614 /* QGHealthTestTool.m */,
+				554FC8B41D58470700371E67 /* QGBlueToothTool.h */,
+				554FC8B51D58470700371E67 /* QGBlueToothTool.m */,
+				554FC8B71D584B6E00371E67 /* QGChangeHexTool.h */,
+				554FC8B81D584B6E00371E67 /* QGChangeHexTool.m */,
+				94FB3AAF1DD99F3B009B027B /* QGMusicPlayMusicPlayManager.h */,
+				94FB3AB01DD99F3B009B027B /* QGMusicPlayMusicPlayManager.m */,
+				94FB3AB11DD99F3B009B027B /* QGFileManager.h */,
+				94FB3AB21DD99F3B009B027B /* QGFileManager.m */,
+				55CBD1C11DE18CF500D72614 /* AppStatus.h */,
+				55CBD1C21DE18CF500D72614 /* AppStatus.m */,
+				55CBD1C31DE18CF500D72614 /* QGCheckTool.h */,
+				55CBD1C41DE18CF500D72614 /* QGCheckTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		556ADAFE1D488C8400C4E6A3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				285B0FF51DDDA2750052291A /* ShareSDK */,
+				556ADAFD1D488C7B00C4E6A3 /* Tool */,
+				55DE42E91D58BF9F004E1CB6 /* GATTTOOL */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		556ADAFF1D488C8C00C4E6A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAC51D488C1300C4E6A3 /* AppDelegate.h */,
+				556ADAC61D488C1300C4E6A3 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		556ADB001D488CBF00C4E6A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAFF1D488C8C00C4E6A3 /* Other */,
+				556ADAFE1D488C8400C4E6A3 /* Utility */,
+				556ADAFC1D488C7400C4E6A3 /* Model */,
+				556ADAFB1D488C6200C4E6A3 /* Category */,
+				556ADAF81D488C2300C4E6A3 /* Manager */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5598F0EA1DAF41AD00DCF017 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2863D0481DDF5BB2003DDA5D /* FBSDKCoreKit.framework */,
+				2863D0491DDF5BB2003DDA5D /* FBSDKLoginKit.framework */,
+				2863D04A1DDF5BB2003DDA5D /* FBSDKShareKit.framework */,
+				2863D0201DDF4BD9003DDA5D /* SMS_SDK */,
+				285B10371DDEDC5D0052291A /* AdSupport.framework */,
+				285B10351DDEDC4F0052291A /* CoreTelephony.framework */,
+				285B10331DDEDC430052291A /* SystemConfiguration.framework */,
+				285B101D1DDED90C0052291A /* libicucore.tbd */,
+				55B1F0C61DE1CBE300CC5171 /* Bolts.framework */,
+				285B101E1DDED90C0052291A /* libz.tbd */,
+				285B101F1DDED90C0052291A /* libstdc++.tbd */,
+				285B10201DDED90C0052291A /* JavaScriptCore.framework */,
+				285B10211DDED90C0052291A /* MessageUI.framework */,
+				558ABF141D508F3C009154BA /* CoreBluetooth.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		5599D6D51D4C7C66009A6B62 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAF91D488C3600C4E6A3 /* View */,
+				556ADAFA1D488C3C00C4E6A3 /* Controller */,
+			);
+			name = Sport;
+			sourceTree = "<group>";
+		};
+		55C0E9AE1DD98E2D00FB657C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				55C0E9B01DD98E3E00FB657C /* controller */,
+				55C0E9AF1DD98E3200FB657C /* view */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		55C0E9AF1DD98E3200FB657C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55C0E9B11DD98E5800FB657C /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		55C0E9B01DD98E3E00FB657C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				552D2A5B1DB5E50400F4D6B4 /* QGMainTabBarController.h */,
+				552D2A5C1DB5E50400F4D6B4 /* QGMainTabBarController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		55DE42E91D58BF9F004E1CB6 /* GATTTOOL */ = {
+			isa = PBXGroup;
+			children = (
+				55DE42EA1D58BFBA004E1CB6 /* QGATGATTTool.h */,
+				55DE42EB1D58BFBA004E1CB6 /* QGATGATTTool.m */,
+				554FC8C21D58BF0700371E67 /* GATT_Specifications.plist */,
+			);
+			name = GATTTOOL;
+			sourceTree = "<group>";
+		};
+		55EF5D8D1DD9B0E500C64461 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				55EF5D8F1DD9B0F400C64461 /* controller */,
+				55EF5D8E1DD9B0F000C64461 /* view */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		55EF5D8E1DD9B0F000C64461 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55EF5D901DD9B11900C64461 /* Setting.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		55EF5D8F1DD9B0F400C64461 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				55EF5D921DD9B18700C64461 /* QGSettingTableViewController.h */,
+				55EF5D931DD9B18700C64461 /* QGSettingTableViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		94FB3A9C1DD99ED5009B027B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				94FB3A9F1DD99EFD009B027B /* controller */,
+				94FB3A9E1DD99EF5009B027B /* view */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		94FB3A9E1DD99EF5009B027B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				94FB3AA91DD99F28009B027B /* QGMusicPageTwoCell.h */,
+				94FB3AAA1DD99F28009B027B /* QGMusicPageTwoCell.m */,
+				94FB3AAB1DD99F28009B027B /* QGMusicPageOneCell.h */,
+				94FB3AAC1DD99F28009B027B /* QGMusicPageOneCell.m */,
+				94FB3AB51DD99F4F009B027B /* Music.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		94FB3A9F1DD99EFD009B027B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				94FB3AA01DD99F0A009B027B /* QGMusicPageOneController.h */,
+				94FB3AA11DD99F0A009B027B /* QGMusicPageOneController.m */,
+				94FB3AA21DD99F0A009B027B /* QGMusicPageTwoListController.h */,
+				94FB3AA31DD99F0A009B027B /* QGMusicPageTwoListController.m */,
+				94FB3AA41DD99F0A009B027B /* QGMusicPageThreePlayerController.h */,
+				94FB3AA51DD99F0A009B027B /* QGMusicPageThreePlayerController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556ADAEF1D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueTooth" */;
+			buildPhases = (
+				556ADABB1D488C1300C4E6A3 /* Sources */,
+				556ADABC1D488C1300C4E6A3 /* Frameworks */,
+				556ADABD1D488C1300C4E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGSmartBlueTooth;
+			productName = QGSmartBlueTooth;
+			productReference = 556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556ADAB71D488C1300C4E6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "com.gxqhaoren@tom.www";
+				TargetAttributes = {
+					556ADABE1D488C1300C4E6A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 42J3LTA9CQ;
+					};
+				};
+			};
+			buildConfigurationList = 556ADABA1D488C1300C4E6A3 /* Build configuration list for PBXProject "QGSmartBlueTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				"zh-Hans-CN",
+			);
+			mainGroup = 556ADAB61D488C1300C4E6A3;
+			productRefGroup = 556ADAC01D488C1300C4E6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556ADABD1D488C1300C4E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556ADAD51D488C1300C4E6A3 /* LaunchScreen.storyboard in Resources */,
+				554AA1CC1D522F890044910D /* view2.png in Resources */,
+				554FC8C31D58BF0700371E67 /* GATT_Specifications.plist in Resources */,
+				55C0E9B21DD98E5800FB657C /* Main.storyboard in Resources */,
+				5545A2911D6450AF0027D6D1 /* Localizable.strings in Resources */,
+				556ADAD21D488C1300C4E6A3 /* Assets.xcassets in Resources */,
+				94FB3AB61DD99F4F009B027B /* Music.storyboard in Resources */,
+				55CBD1E11DE1B7CB00D72614 /* Sport.storyboard in Resources */,
+				55EF5D911DD9B11900C64461 /* Setting.storyboard in Resources */,
+				55CBD1CA1DE1907E00D72614 /* Info.plist in Resources */,
+				554FC8BE1D58503A00371E67 /* view1 .png in Resources */,
+				55CBD1C01DE18C9400D72614 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556ADABB1D488C1300C4E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552D2A5D1DB5E50400F4D6B4 /* QGMainTabBarController.m in Sources */,
+				94FB3AB41DD99F3B009B027B /* QGFileManager.m in Sources */,
+				94FB3AA71DD99F0A009B027B /* QGMusicPageTwoListController.m in Sources */,
+				55CBD1DD1DE1B5E500D72614 /* QGJabraDetailController.m in Sources */,
+				55F459651D630C5A0008CFF3 /* QGChangeHexTool.m in Sources */,
+				94FB3AA61DD99F0A009B027B /* QGMusicPageOneController.m in Sources */,
+				55F459641D630C560008CFF3 /* QGBlueToothTool.m in Sources */,
+				55CBD1BD1DE18C7600D72614 /* LoginViewController.m in Sources */,
+				55CBD1DF1DE1B5E500D72614 /* QGSportMenuController.m in Sources */,
+				55CBD1DC1DE1B5E500D72614 /* QGSportMainController.m in Sources */,
+				55CBD1B91DE18C7600D72614 /* FPswCheckPhoneViewController.m in Sources */,
+				55DE42EC1D58BFBA004E1CB6 /* QGATGATTTool.m in Sources */,
+				94FB3AAE1DD99F28009B027B /* QGMusicPageOneCell.m in Sources */,
+				55CBD1B81DE18C7600D72614 /* VerifyViewController.m in Sources */,
+				55EF5D941DD9B18700C64461 /* QGSettingTableViewController.m in Sources */,
+				55CBD1D01DE1B57200D72614 /* QGMenuTableViewCell.m in Sources */,
+				94FB3AB31DD99F3B009B027B /* QGMusicPlayMusicPlayManager.m in Sources */,
+				55CBD1BE1DE18C7600D72614 /* WCViewController.m in Sources */,
+				55CBD1E71DE1C0C900D72614 /* QGHealthTestTool.m in Sources */,
+				55B1F0CA1DE1D43800CC5171 /* QGhealthViewController.m in Sources */,
+				55CBD1CF1DE1B57200D72614 /* QGCharacteristicCell.m in Sources */,
+				55CBD1B71DE18C7600D72614 /* QGRegistViewController.m in Sources */,
+				55FAFEBF1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m in Sources */,
+				556ADAC71D488C1300C4E6A3 /* AppDelegate.m in Sources */,
+				55CBD1DE1DE1B5E500D72614 /* QGCharactiesDeatailView.m in Sources */,
+				55CBD1BB1DE18C7600D72614 /* VerifyLoginViewController.m in Sources */,
+				94FB3AAD1DD99F28009B027B /* QGMusicPageTwoCell.m in Sources */,
+				94FB3AA81DD99F0A009B027B /* QGMusicPageThreePlayerController.m in Sources */,
+				55CBD1BA1DE18C7600D72614 /* FPswResetViewController.m in Sources */,
+				55CBD1C51DE18CF500D72614 /* AppStatus.m in Sources */,
+				55CBD1DB1DE1B5E500D72614 /* QGMapViewController.m in Sources */,
+				556ADAD01D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld in Sources */,
+				55CBD1C61DE18CF500D72614 /* QGCheckTool.m in Sources */,
+				55CBD1BC1DE18C7600D72614 /* LoginMainViewController.m in Sources */,
+				556ADAC41D488C1300C4E6A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5545A2931D6450AF0027D6D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5545A2921D6450AF0027D6D1 /* en */,
+				5545A2941D6450B00027D6D1 /* Base */,
+				5545A2951D6450B10027D6D1 /* zh-Hans */,
+				5545A2961D6450B10027D6D1 /* zh-Hant */,
+				5545A2971D6450B20027D6D1 /* zh-Hans-CN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556ADAD41D488C1300C4E6A3 /* Base */,
+				55F4595E1D62E3DB0008CFF3 /* zh-Hans */,
+				5545A2361D644D1B0027D6D1 /* zh-Hant */,
+				5545A23A1D644D570027D6D1 /* zh-Hans-CN */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556ADAED1D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		556ADAEE1D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556ADAF01D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 42J3LTA9CQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SMS_SDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = QGSmartBlueTooth/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.acceladatae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		556ADAF11D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 42J3LTA9CQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SMS_SDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = QGSmartBlueTooth/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.acceladatae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556ADABA1D488C1300C4E6A3 /* Build configuration list for PBXProject "QGSmartBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAED1D488C1300C4E6A3 /* Debug */,
+				556ADAEE1D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556ADAEF1D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAF01D488C1300C4E6A3 /* Debug */,
+				556ADAF11D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */,
+			);
+			currentVersion = 556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */;
+			path = QGSmartBlueTooth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 556ADAB71D488C1300C4E6A3 /* Project object */;
+}
