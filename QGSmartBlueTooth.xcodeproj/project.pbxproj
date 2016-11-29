@@ -22,6 +22,8 @@
 		2863D04C1DDF5BB2003DDA5D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D0491DDF5BB2003DDA5D /* FBSDKLoginKit.framework */; };
 		2863D04D1DDF5BB2003DDA5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2863D04A1DDF5BB2003DDA5D /* FBSDKShareKit.framework */; };
 		552D2A5D1DB5E50400F4D6B4 /* QGMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552D2A5C1DB5E50400F4D6B4 /* QGMainTabBarController.m */; };
+		553137491DEDB8230043A0B0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 553137481DEDB8230043A0B0 /* User.m */; };
+		5531374C1DEDB8B50043A0B0 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 5531374B1DEDB8B50043A0B0 /* Music.m */; };
 		5545A2911D6450AF0027D6D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5545A2931D6450AF0027D6D1 /* Localizable.strings */; };
 		554AA1CC1D522F890044910D /* view2.png in Resources */ = {isa = PBXBuildFile; fileRef = 554AA1CB1D522F890044910D /* view2.png */; };
 		554FC8BE1D58503A00371E67 /* view1 .png in Resources */ = {isa = PBXBuildFile; fileRef = 554FC8BD1D58503A00371E67 /* view1 .png */; };
@@ -92,6 +94,10 @@
 		2863D04A1DDF5BB2003DDA5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		552D2A5B1DB5E50400F4D6B4 /* QGMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGMainTabBarController.h; sourceTree = "<group>"; };
 		552D2A5C1DB5E50400F4D6B4 /* QGMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGMainTabBarController.m; sourceTree = "<group>"; };
+		553137471DEDB8230043A0B0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		553137481DEDB8230043A0B0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5531374A1DEDB8B50043A0B0 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		5531374B1DEDB8B50043A0B0 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
 		5545A2361D644D1B0027D6D1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		5545A23A1D644D570027D6D1 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		5545A2921D6450AF0027D6D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -406,6 +412,10 @@
 		556ADAFC1D488C7400C4E6A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				553137471DEDB8230043A0B0 /* User.h */,
+				553137481DEDB8230043A0B0 /* User.m */,
+				5531374A1DEDB8B50043A0B0 /* Music.h */,
+				5531374B1DEDB8B50043A0B0 /* Music.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -680,6 +690,7 @@
 				94FB3AA61DD99F0A009B027B /* QGMusicPageOneController.m in Sources */,
 				55F459641D630C560008CFF3 /* QGBlueToothTool.m in Sources */,
 				55CBD1BD1DE18C7600D72614 /* LoginViewController.m in Sources */,
+				5531374C1DEDB8B50043A0B0 /* Music.m in Sources */,
 				55CBD1DF1DE1B5E500D72614 /* QGSportMenuController.m in Sources */,
 				55CBD1DC1DE1B5E500D72614 /* QGSportMainController.m in Sources */,
 				55CBD1B91DE18C7600D72614 /* FPswCheckPhoneViewController.m in Sources */,
@@ -692,6 +703,7 @@
 				55CBD1BE1DE18C7600D72614 /* WCViewController.m in Sources */,
 				55CBD1E71DE1C0C900D72614 /* QGHealthTestTool.m in Sources */,
 				55B1F0CA1DE1D43800CC5171 /* QGhealthViewController.m in Sources */,
+				553137491DEDB8230043A0B0 /* User.m in Sources */,
 				55CBD1CF1DE1B57200D72614 /* QGCharacteristicCell.m in Sources */,
 				55CBD1B71DE18C7600D72614 /* QGRegistViewController.m in Sources */,
 				55FAFEBF1DC069490018D4E9 /* CBCentralManager+QGCentralManagerCategory.m in Sources */,
